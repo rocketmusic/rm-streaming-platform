@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 01, 2020 at 05:18 PM
+-- Generation Time: Nov 01, 2020 at 11:54 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -49,13 +49,14 @@ INSERT INTO `albums` (`id`, `title`, `artist`, `genre`, `artworkPath`) VALUES
 (7, 'Christmas', 1, 6, 'assets/images/artwork/christmas.jpg'),
 (8, 'Silent Night', 7, 1, 'assets/images/artwork/silent_night.jpg'),
 (9, 'Running Tracks', 8, 7, 'assets/images/artwork/running_track.jpg'),
-(10, 'Chegou de Manso SINGLE', 9, 9, 'assets\\images\\artwork\\chegou_de_manso.jpg'),
+(10, 'Chegou de Manso SINGLE', 9, 8, 'assets\\images\\artwork\\chegou_de_manso.jpg'),
 (11, 'Scorpion', 10, 9, 'assets\\images\\artwork\\scorpion_drake.jpg'),
 (12, 'Barões da Pisadinha - Ao vivo', 11, 10, 'assets\\images\\artwork\\baroes_da_pisadinha.jpg'),
 (13, 'Jonas Esticado', 12, 10, 'assets\\images\\artwork\\jonas_esticado.jpg'),
 (14, 'Leo Gomes', 13, 10, 'assets\\images\\artwork\\leo_gomes.jpg'),
 (15, 'Ariana Grande', 14, 4, 'assets\\images\\artwork\\sweetener.jpg'),
-(16, 'No bad vibes today', 15, 4, 'assets\\images\\artwork\\broderick.jpg');
+(16, 'No bad vibes today', 15, 4, 'assets\\images\\artwork\\broderick.jpg'),
+(17, 'Bright and early', 16, 9, 'assets\\images\\artwork\\locs.jpg');
 
 -- --------------------------------------------------------
 
@@ -87,7 +88,8 @@ INSERT INTO `artists` (`id`, `name`) VALUES
 (12, 'Jonas Esticado'),
 (13, 'Leo Gomes'),
 (14, 'Ariana Grande'),
-(15, 'Broderick Jones');
+(15, 'Broderick Jones'),
+(16, 'LOCS');
 
 -- --------------------------------------------------------
 
@@ -194,7 +196,7 @@ INSERT INTO `songs` (`id`, `title`, `artist`, `album`, `genre`, `duration`, `pat
 (9, 'Mary Did You Know', 1, 7, 6, '3:40', 'assets/music/mary_did_you_know.mp3', 1, 29, 0),
 (10, 'Silent Night', 7, 8, 1, '4:12', 'assets/music/silent_night.mp3', 1, 56, 0),
 (11, 'Unbreak My Heart', 8, 9, 7, '4:22', 'assets/music/unbreak_my_ heart.mp3', 1, 44, 0),
-(12, 'Chegou de Manso', 9, 10, 9, '2:57', 'assets\\music\\chegou_de_manso.mp3', 1, 126, 0),
+(12, 'Chegou de Manso', 9, 10, 8, '2:57', 'assets\\music\\chegou_de_manso.mp3', 1, 126, 0),
 (13, 'God\'s Plan', 10, 11, 9, '5:57', 'assets\\music\\gods_plan.mp3', 1, 214, 0),
 (14, 'Survival', 10, 11, 9, '2:16', 'assets\\music\\survival.mp3', 2, 178, 2),
 (15, 'Nonstop', 10, 11, 9, '5:16', 'assets\\music\\non_stop.mp3', 3, 342, 0),
@@ -209,7 +211,8 @@ INSERT INTO `songs` (`id`, `title`, `artist`, `album`, `genre`, `duration`, `pat
 (24, 'Motive', 14, 15, 4, '2:49', 'assets\\music\\motive.mp3', 2, 504, 0),
 (25, 'Positions', 14, 15, 4, '2:51', 'assets\\music\\positions.mp3', 3, 500, 0),
 (26, 'Dont Leave Me Hanging', 15, 16, 4, '3:38', 'assets\\music\\Dont_Leave_Me_Hanging.mp3', 1, 5, 0),
-(27, 'I heard', 15, 16, 4, '2:27', 'assets\\musicic\\heard.mp3', 2, 4, 0);
+(27, 'I heard', 15, 16, 4, '2:27', 'assets\\musicic\\heard.mp3', 2, 4, 0),
+(28, '', 16, 17, 9, '03:02', 'assets\\music\\bright_and_early.mp3', 1, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -297,13 +300,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `albums`
 --
 ALTER TABLE `albums`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `artists`
 --
 ALTER TABLE `artists`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `genres`
