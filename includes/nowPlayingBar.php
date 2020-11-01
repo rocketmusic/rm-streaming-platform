@@ -111,7 +111,7 @@ function nextSong() {
 		var track2 = JSON.parse(data);
 		$generoMusica = track2.genre;
 	});
-	for (var i = 1; i <= 27; i++)
+	for (var i = 1; i <= 28; i++)
 	{
 		$.post("includes/handlers/ajax/getSongJson.php", { songId: i }, function(data) 
 		{
