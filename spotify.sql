@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 01, 2020 at 11:54 PM
+-- Generation Time: Nov 02, 2020 at 12:06 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -188,7 +188,7 @@ INSERT INTO `songs` (`id`, `title`, `artist`, `album`, `genre`, `duration`, `pat
 (1, 'Angels We Have Heard on High', 1, 1, 1, '3:08', 'assets/music/angels_we_have_heard_on_high.mp3', 1, 57, 0),
 (2, 'Ave Maria', 2, 2, 2, '2:02', 'assets/music/ave_maria.mp3', 1, 55, 0),
 (3, 'Cannon in D', 3, 3, 3, '7:44', 'assets/music/canon_in_d.mp3', 1, 64, 0),
-(4, 'Deck the Halls', 4, 4, 4, '2:16', 'assets/music/deck_the_halls.mp3', 1, 44, 0),
+(4, 'Deck the Halls', 4, 4, 4, '2:16', 'assets/music/deck_the_halls.mp3', 1, 45, 0),
 (5, 'Do You Hear What I Hear', 5, 5, 1, '3:49', 'assets/music/do_you_hear_what_i_hear.mp3', 1, 65, 0),
 (6, 'Hark the Herald Angels Sing', 5, 5, 1, '4:40', 'assets/music/hark_the_herald_angels_sing.mp3', 2, 66, 0),
 (7, 'How Great is Our God', 6, 6, 5, '5:08', 'assets/music/bensound-funnysong.mp3', 1, 30, 0),
@@ -197,22 +197,22 @@ INSERT INTO `songs` (`id`, `title`, `artist`, `album`, `genre`, `duration`, `pat
 (10, 'Silent Night', 7, 8, 1, '4:12', 'assets/music/silent_night.mp3', 1, 56, 0),
 (11, 'Unbreak My Heart', 8, 9, 7, '4:22', 'assets/music/unbreak_my_ heart.mp3', 1, 44, 0),
 (12, 'Chegou de Manso', 9, 10, 8, '2:57', 'assets\\music\\chegou_de_manso.mp3', 1, 126, 0),
-(13, 'God\'s Plan', 10, 11, 9, '5:57', 'assets\\music\\gods_plan.mp3', 1, 214, 0),
-(14, 'Survival', 10, 11, 9, '2:16', 'assets\\music\\survival.mp3', 2, 178, 2),
-(15, 'Nonstop', 10, 11, 9, '5:16', 'assets\\music\\non_stop.mp3', 3, 342, 0),
-(16, 'Ta rocheda', 11, 12, 10, '3:32', 'assets\\music\\ta_rocheda.mp3', 1, 509, 0),
+(13, 'God\'s Plan', 10, 11, 9, '5:57', 'assets\\music\\gods_plan.mp3', 1, 501, 0),
+(14, 'Survival', 10, 11, 9, '2:16', 'assets\\music\\survival.mp3', 2, 502, 2),
+(15, 'Nonstop', 10, 11, 9, '5:16', 'assets\\music\\non_stop.mp3', 3, 501, 0),
+(16, 'Ta rocheda', 11, 12, 10, '3:32', 'assets\\music\\ta_rocheda.mp3', 1, 510, 0),
 (17, 'Investe em mim', 12, 13, 10, '3:20', 'assets\\music\\investe_em_mim.mp3', 1, 500, 0),
 (18, 'Casa de Praia', 11, 12, 10, '2:26', 'assets\\music\\casa_de_Praia_Ao_Vivo.mp3', 2, 510, 0),
-(19, 'Cabeça Voando', 11, 12, 10, '3:05', 'assets\\music\\cabeca_Voando.mp3', 3, 503, 0),
+(19, 'Cabeça Voando', 11, 12, 10, '3:05', 'assets\\music\\cabeca_Voando.mp3', 3, 504, 0),
 (20, 'Recairei', 11, 12, 10, '2:46', 'assets\\music\\recairei.mp3', 4, 502, 0),
 (21, 'O pai ta ON', 13, 14, 10, '3:43', 'assets\\music\\o_pai_ta_on.mp3', 1, 34, 2),
-(22, 'Não valorizou, perdeu', 13, 14, 10, '2:26', 'assets\\music\\nao_valorizou_perdeu.mp3', 2, 33, 1),
-(23, '34+35', 14, 15, 4, '2:54', 'assets\\music\\3435.mp3', 1, 502, 0),
-(24, 'Motive', 14, 15, 4, '2:49', 'assets\\music\\motive.mp3', 2, 504, 0),
+(22, 'Não valorizou, perdeu', 13, 14, 10, '2:26', 'assets\\music\\nao_valorizou_perdeu.mp3', 2, 34, 1),
+(23, '34+35', 14, 15, 4, '2:54', 'assets\\music\\3435.mp3', 1, 505, 0),
+(24, 'Motive', 14, 15, 4, '2:49', 'assets\\music\\motive.mp3', 2, 505, 0),
 (25, 'Positions', 14, 15, 4, '2:51', 'assets\\music\\positions.mp3', 3, 500, 0),
 (26, 'Dont Leave Me Hanging', 15, 16, 4, '3:38', 'assets\\music\\Dont_Leave_Me_Hanging.mp3', 1, 5, 0),
-(27, 'I heard', 15, 16, 4, '2:27', 'assets\\musicic\\heard.mp3', 2, 4, 0),
-(28, '', 16, 17, 9, '03:02', 'assets\\music\\bright_and_early.mp3', 1, 1, 0);
+(27, 'I heard', 15, 16, 4, '2:27', 'assets\\musicic\\heard.mp3', 2, 5, 0),
+(28, 'Bright and early', 16, 17, 9, '03:02', 'assets\\music\\bright_and_early.mp3', 1, 32, 0);
 
 -- --------------------------------------------------------
 
