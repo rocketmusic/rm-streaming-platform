@@ -334,6 +334,7 @@ h1 {
   width: 50%;
   height: 25%;
   position: absolute;
+  overflow-y: scroll;
   top: 20%;
   left: 25%;
   transition: all 5s ease-in-out;
